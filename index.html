@@ -4,6 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <form>
+      <h1>Bộ chuyển đổi nhiệt độ</h1>
+      <input type="number" value="0" id="textbox" /><br />
+
+      <input type="radio" name="unit" id="Chuyen_tu_do_C_sang_do_F" />
+      <label for="Chuyen_tu_do_C_sang_do_F">Đổi từ độ C sang độ F</label><br />
+
+      <input type="radio" name="unit" id="Chuyen_tu_do_F_sang_do_C" />
+      <label for="Chuyen_tu_do_F_sang_do_C">Đổi từ độ F sang độ C</label><br />
+
+      <button type="button" onclick="chuyendoi()">Chuyển đổi</button>
+      <p id="ket_qua"></p>
+    </form>
+
+    <script src="index.js"></script>
+  </body>
 </html>

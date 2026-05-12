@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+GB+J+Guides:ital@0;1&display=swap");
+
+body {
+  font-family: "Playwrite GB J Guides", cursive;
+  background-color: hsl(0, 0%, 95%);
+}
+
+h1 {
+  color: hsl(208, 53%, 52%);
+  text-align: center;
+  animation: pointdown 0.7s infinite alternate-reverse;
+  margin-top: -10px;
+}
+@keyframes pointdown {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(16px);
+  }
+}
+
+form {
+  background-color: hsl(0, 0%, 100%);
+  text-align: center;
+  margin: auto;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 400px;
+  box-shadow: 5px 5px 10px black;
+}
+
+#textbox {
+  width: 50%;
+  text-align: center;
+  padding: 5px hsl(208, 53%, 52%);
+  border: 2px solid hsl(208, 53%, 52%);
+  border-radius: 5px;
+  font-size: 2em;
+  margin-top: 20px;
+  color: hsl(208, 53%, 52%);
+  margin-bottom: 20px;
+}
+
+label {
+  font-size: 1.5em;
+  color: hsl(208, 53%, 52%);
+}
+
+button {
+  background-color: hsl(208, 53%, 52%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: hsl(208, 53%, 42%);
+}
+
+#ket_qua {
+  font-size: 1.75 em;
+  font-weight: bold;
+  color: hsl(208, 53%, 52%);
+}
